@@ -1,6 +1,3 @@
-Here is the `README.md` file in Markdown format:
-
-```markdown
 # MyWebsite
 
 A simple Django project for showcasing static web content.
@@ -39,7 +36,6 @@ A simple Django project for showcasing static web content.
 ```bash
 git clone https://github.com/elonerajeev/mywebsite-Using-Python.git
 cd mywebsite
-```
 
 ### Install Dependencies
 

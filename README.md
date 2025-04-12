@@ -46,6 +46,85 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
+## setup By the Rahul Kumar
+
+
+2. **Install Dependencies**
+
+   Ensure you have [Node.js](https://nodejs.org/) installed. Then, install the required packages:
+
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables**
+
+   Create a `.env.local` file in the root directory and add your OpenAI API key:
+
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+4. **Run the Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Navigate to `http://localhost:3000` in your browser to access the application.
+
+---
+
+## 🧪 Usage
+
+1. **Enter Jira Ticket ID**: On the homepage, input the Jira ticket ID you wish to process.
+2. **Generate Code**: Click on the "Generate" button to fetch the ticket description and initiate code generation.
+3. **Review Output**: The application will display the generated code changes and unit tests in a diff viewer for your review.
+
+---
+
+## 📁 Project Structure
+
+```
+4.-LLM-Driven-Feature/
+├── components/        # Reusable UI components
+├── pages/             # Next.js pages
+├── public/            # Static assets
+├── styles/            # Global styles and Tailwind configurations
+├── utils/             # Utility functions and helpers
+├── .env.local         # Environment variables
+├── package.json       # Project metadata and scripts
+└── README.md          # Project documentation
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to enhance the functionality or fix issues:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request.
+
+Please ensure your code adheres to the project's coding standards and includes relevant tests.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+For questions or feedback, please reach out to [Rahul Kumar](mailto:rahulkrcse124@example.com).
+
+---
+
 
 ## Usage
 
